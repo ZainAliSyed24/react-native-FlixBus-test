@@ -31,7 +31,7 @@ const App: React.FC = () => {
 
     const trigger: IntervalTrigger = {
       type: TriggerType.INTERVAL,
-      interval: 15,
+      interval: 100,
       timeUnit: TimeUnit.MINUTES
     };
 
